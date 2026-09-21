@@ -21,7 +21,30 @@ The project will focus on writing maintainable frontend code, using version cont
 
 ## Getting Started
 
-Instructions for installing dependencies and running the project will be added as development progresses.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 18 or later
+- npm (included with Node.js)
+
+### Install and run
+
+From the project root:
+
+```bash
+npm install
+npm run dev
+```
+
+Vite prints a local URL in the terminal (usually `http://localhost:5173`). Open that URL to view the app.
+
+### Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+`npm run build` writes a production bundle to `dist/`. `npm run preview` serves that bundle locally so you can check the production output before deploying.
 
 ## Development
 
